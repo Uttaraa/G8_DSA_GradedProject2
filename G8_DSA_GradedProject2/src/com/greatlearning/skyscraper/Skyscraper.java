@@ -19,19 +19,15 @@ public class Skyscraper {
 			// Accept the size of the floor
 			System.out.println("Enter the floor size given on day " + i + ":");
 			int size = sc.nextInt();
-
-			// Store the day in the array with the index of the size of the floor
 			try {
+				// Store the day in the array with the index of the size of the floor
 				day[size] = i;
-
 			} catch (ArrayIndexOutOfBoundsException e) {
-
 				System.err.println("ENTER A VALID SIZE");
 				// e.printStackTrace();
-				return;
+				i--;
 			}
 		}
-
 		// Declare a temporary variable
 		int temp = n;
 
@@ -51,14 +47,13 @@ public class Skyscraper {
 			while (temp >= 1 && day[temp] <= i) {
 				// Update the flag
 				flag = 1;
-
 				// Print the floor
 				System.out.print(temp + " ");
 
 				// Find the next highest floor available
 				temp--;
-			}
-
+			}			
+			
 			// If flag is updated
 			if (flag == 1) {
 				// Proceed to the next day
