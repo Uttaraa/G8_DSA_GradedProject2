@@ -11,7 +11,7 @@ THIS ASSIGNMENT COMPLIES OF TWO PROGRAMS NAMELY:
 
 The guidelines provided in problem statement and further details of both the programs are as follows:
 
-<a href ="https://github.com/Uttaraa/G8_DSA_GradedProject2/tree/main/G8_DSA_GradedProject2/src/com/greatlearning/skyscraper"><H3><ins>SKYSCRAPER</ins></H3></a>
+<H3><ins><a href ="https://github.com/Uttaraa/G8_DSA_GradedProject2/tree/main/G8_DSA_GradedProject2/src/com/greatlearning/skyscraper">SKYSCRAPER</a></ins></H3>
 This assignment demonstrates a program that will help to analyze the construction process and validate the given coditions of a skyscraper building, to avoid manual work and errors.
 Implemented using basic concepts of Data Structure and Algorithms(DSA).
 <br>
